@@ -20,13 +20,11 @@ for locations!  */
 
 // japan
       if (compassHeading >= 45 && compassHeading < 135) {
-        text_area.textContent = "始めまして、";
-        document.write("<br>");
-        text_area.textContent = "村岡。。。美佳？ジェン？アーヌ？　と申します。";
+        text_area.textContent = "始めまして、村岡。。。美佳？ジェン？アーヌ？　と申します。";
       }
 //minnesota
-      if (compassHeading >= 135 && compassHeading < 225) {
-        text_area.textContent = "熱い";
+      if (compassHeading >= 90 && compassHeading < 135) {
+        text_area.textContent = "cold quiet wispy snow on the ground, summer";
       }
 // in between hawaii and japan
       if (compassHeading >= 225 && compassHeading <= 315) {

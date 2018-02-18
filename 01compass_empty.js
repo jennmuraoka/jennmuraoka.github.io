@@ -13,40 +13,26 @@ labels are just so that you know where to look up
 for locations!  */
 
 
-// hawaii
-    if (compassHeading >= 205 && compassHeading < 270) {
-        text_area.textContent = "e komo mai howzit braddah da sun wen come in bright today yeah";
-      }
-
 // japan
-      if (compassHeading >= 45 && compassHeading < 135) {
-        text_area.textContent = "始めまして、村岡。。。美佳？ジェン？アーヌ？　と申します。";
-      }
+if (compassHeading >= 350 || compassHeading < 30) {
+  text_area.textContent = "始めまして、村岡。。。美佳？ジェン？アーヌ？　と申します。";
+}
+// euro
+if (compassHeading >= 30 && compassHeading < 90) {
+  text_area.textContent = "i want to go to you";
+}
 //minnesota
-      if (compassHeading >= 90 && compassHeading < 135) {
-        text_area.textContent = "cold quiet wispy snow on the ground, summer";
-      }
-// in between hawaii and japan
-      if (compassHeading >= 225 && compassHeading <= 315) {
-        text_area.textContent = "パラダイス";
-      }
-
-// in between hawaii and continental us (california?)
-      if (compassHeading > 315 || compassHeading < 45) {
-        text_area.textContent = "寒い";
-      }
-// in between california and minnesota
-      if (compassHeading >= 45 && compassHeading < 135) {
-        text_area.textContent = "帰場所";
-      }
-// in between minnesota and chicago
-      if (compassHeading >= 135 && compassHeading < 225) {
-        text_area.textContent = "熱い";
-      }
-// in between mn/chi and japan
-      if (compassHeading >= 225 && compassHeading <= 315) {
-        text_area.textContent = "パラダイス";
-    }
+if (compassHeading >= 90 && compassHeading < 135) {
+  text_area.textContent = "cold quiet wispy snow on the ground, suburban motorcycle ride, summer";
+  }
+// hawaii
+if (compassHeading >= 205 && compassHeading < 270) {
+  text_area.textContent = "e komo mai howzit braddah da sun wen come in bright today yeah";
+}
+// se sea??
+if (compassHeading >= 270 && compassHeading < 350) {
+  text_area.textContent = "???";
+}
 
        //calls function to alter content based on heading
        // myOrientation();
